@@ -1,0 +1,127 @@
+.principalContato{
+    background-image: url("../img/contato/fundoContato.png");   
+}
+
+.titulo_contato{
+    background-color: rgb(76, 20, 167);
+    color: white;
+    box-shadow: 10px 10px 0px rgba(24, 0, 46, 0.781);
+}
+
+.titulo_contato h1{
+    font-size: 80px;
+}
+
+.titulo_contato p{
+    font-size: 20px;
+}
+
+.container_formularioAvo{
+    background-color: rgb(60, 224, 175);
+}
+
+.container_formularioPai{
+    width: 80%;
+}
+
+input, span{
+    height: 50px;
+    border: 2px solid rgb(45, 0, 75) !important;
+    box-shadow: 10px 10px 0px rgba(24, 0, 46, 0.781) !important;
+
+}
+
+span{
+    background-color: rgb(46, 43, 226) !important;
+    color: white !important;
+}
+
+textarea{
+    height: 200px;
+    border: 2px solid rgb(45, 0, 75) !important;
+    box-shadow: 10px 10px 0px rgba(24, 0, 46, 0.781) !important;
+}
+
+h2{
+    font-size: 40px;
+    color: rgb(60, 0, 116);
+}
+
+
+.botao_form{
+    border: 3px solid rgb(45, 0, 75);
+    border-radius: 10px;
+    background-color: rgb(46, 43, 226);
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    width: 300px;
+    height: 50px;
+    transition: 0.4s;
+}
+
+.botao_form:hover{
+    background-color: rgb(26, 24, 131);
+}
+
+.convite_grupo{
+    background-image: url("../img/contato/fundoContato2.jpg");   
+}
+
+.containerPai_convite{
+    color: white;
+}
+
+.containerPai_convite h3{
+    font-size: 40px;
+}
+
+.containerPai_convite p{
+    font-size: 20px;
+}
+
+
+.botao_zap{
+    border: 3px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    width: 80px;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.4s;
+}
+
+.botao_zap:hover{
+    background-color: white;
+    color: #115e30;
+}
+
+.containerPai_logo img{
+    border-radius: 10px;
+    border: 10px solid rgb(128, 255, 190);
+    box-shadow: 10px 10px 0px rgb(255, 255, 255) !important;
+}
+
+
+@media (max-width: 424px) {
+
+    .titulo_contato h1{
+        font-size: 50px;
+    }
+    
+    .titulo_contato p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 769px) {
+
+    .convite_grupo{
+        text-align: center;
+    }
+
+}

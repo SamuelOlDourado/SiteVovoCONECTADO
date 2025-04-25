@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+    max-width: 100%!important;
+    overflow-x: hidden
+}
+
+header{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);
+    background-color: #190032 !important;
+}
+
+.cor{
+    background-color: #190032 !important;
+}
+
+.botaoResponsivo{
+    background-color: #190032 !important;
+}
+
+.inicio{
+    padding-top: 102px !important;
+}
+
+
+.item_ativo{
+    color: #d7a9ff !important;
+}
+
+
+.item_menu a{
+    color: #b9ffb6;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.item_menu a:hover{
+    color: #008540 !important;
+}
+
+.retangulo{
+    background-color: #150033;
+}
+
+
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+
+
+.fim_rodape{
+    background-color: #12003d;
+}
+
+
+ 
