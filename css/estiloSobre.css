@@ -1,98 +1,85 @@
-.resumo{
+.resumo {
     background: linear-gradient(182deg,rgba(94, 2, 207, 1) 0%, rgba(43, 207, 139, 1) 100%);
-
 }
 
-.perguntaTitulo h6{
-    font-size: 18px;
+.perguntaTitulo h6 {
+    font-size: 1.125rem; 
     margin-top: 100px;
 }
 
-
-.respostaTitulo h1{
-    font-size: 90px;
+.respostaTitulo h1 {
+    font-size: 5.625rem; 
     margin-bottom: 90px;
 }
 
-.respostaTitulo{
+.respostaTitulo {
     width: 1000px;
 }
 
-
-.container_Informacao{
+.container_Informacao {
     background: linear-gradient(180deg, rgba(255,255,255,1) 36%, rgba(255,243,237,1) 64%, rgba(250,152,95,1) 100%, rgba(34,34,34,1) 100%);
-
 }
 
-.apresentacao{
+.apresentacao {
     text-align: justify;
-    font-size: 24px;
+    font-size: 1.5rem; 
     background-color: #2BCF8BFF;
-
 }
 
-.apresentacao img{
+.apresentacao img {
     width: 300px;
     height: 300px;
     border-radius: 10px;
     box-shadow: 10px 10px 0px rgb(80, 0, 155) !important;
 }
 
-.textos_apresentacao{
+.textos_apresentacao {
     background-color: rgb(28, 172, 129);
 }
 
-.textos_equipe{
+.textos_equipe {
     background-color: rgb(76, 20, 167);
 }
 
-.Equipe{
+.Equipe {
     background-color: #2BCF8BFF;
 }
 
-.card{
+.card {
     border: 8px solid #929bff;
     box-shadow: 10px 10px 0px rgba(24, 0, 46, 0.781) !important;
-
 }
 
-.card-body{
+.card-body {
     background-color: #91ffd0;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.25rem; 
     font-weight: bold;
     color: #140047;
 }
 
-.equipe_apresent{
+.equipe_apresent {
     width: 590px;
-    font-size: 24px;
+    font-size: 1.5rem; 
     text-align: justify;
 }
 
-
-.textos_equipe2{
+.textos_equipe2 {
     background-color: rgb(41, 0, 117);
 }
 
-
 @media (max-width: 768px) {
 
-    .respostaTitulo h1{
-        font-size: 30px; 
+    .respostaTitulo h1 {
+        font-size: 1.875rem; 
     }
 
-    .equipe_apresent{
-        font-size: 20px;
+    .equipe_apresent {
+        font-size: 1.25rem; 
     }
 
-    .apresentacao{
-        font-size: 20px;
-    
+    .apresentacao {
+        font-size: 1.25rem;
     }
 
 }
-
-
-
-

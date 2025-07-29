@@ -1,127 +1,135 @@
-.principalContato{
-    background-image: url("../img/contato/fundoContato.png");   
+.principalContato {
+    background-image: url("../img/contato/fundoContato.png");
 }
 
-.titulo_contato{
+.titulo_contato {
     background-color: rgb(76, 20, 167);
     color: white;
     box-shadow: 10px 10px 0px rgba(24, 0, 46, 0.781);
 }
 
-.titulo_contato h1{
-    font-size: 80px;
+.titulo_contato h1 {
+    font-size: 4rem; 
 }
 
-.titulo_contato p{
-    font-size: 20px;
+.titulo_contato p {
+    font-size: 1.375rem; 
 }
 
-.container_formularioAvo{
+.container_formularioAvo {
     background-color: rgb(60, 224, 175);
 }
 
-.container_formularioPai{
+.container_formularioPai {
     width: 80%;
 }
 
-input, span{
+.container_formularioAvo input{
     height: 50px;
     border: 2px solid rgb(45, 0, 75) !important;
     box-shadow: 10px 10px 0px rgba(24, 0, 46, 0.781) !important;
-
 }
 
-span{
+.container_formularioAvo span {
     background-color: rgb(46, 43, 226) !important;
     color: white !important;
+    height: 50px;
+    border: 2px solid rgb(45, 0, 75) !important;
+    box-shadow: 10px 10px 0px rgba(24, 0, 46, 0.781) !important;
 }
 
-textarea{
+textarea {
     height: 200px;
     border: 2px solid rgb(45, 0, 75) !important;
     box-shadow: 10px 10px 0px rgba(24, 0, 46, 0.781) !important;
 }
 
-h2{
-    font-size: 40px;
+h2 {
+    font-size: 2.5rem;
     color: rgb(60, 0, 116);
 }
 
-
-.botao_form{
+.botao_form {
     border: 3px solid rgb(45, 0, 75);
     border-radius: 10px;
     background-color: rgb(46, 43, 226);
     color: white;
     font-weight: bold;
-    font-size: 22px;
-    width: 300px;
+    font-size: 1.25rem;
+    width: 280px;
     height: 50px;
     transition: 0.4s;
 }
 
-.botao_form:hover{
+.botao_form:hover {
     background-color: rgb(26, 24, 131);
 }
 
-.convite_grupo{
-    background-image: url("../img/contato/fundoContato2.jpg");   
+.convite_grupo {
+    background-image: url("../img/contato/fundoContato2.jpg");
 }
 
-.containerPai_convite{
+.containerPai_convite {
     color: white;
 }
 
-.containerPai_convite h3{
-    font-size: 40px;
+.containerPai_convite h3 {
+    font-size: 2.25rem; 
 }
 
-.containerPai_convite p{
-    font-size: 20px;
+.containerPai_convite p {
+    font-size: 1.25rem; 
 }
 
-
-.botao_zap{
+.botao_zap {
     border: 3px solid white;
     border-radius: 10px;
     color: white;
     font-weight: bold;
     width: 80px;
-    font-size: 25px;
+    font-size: 1.375rem; 
     text-decoration: none;
     padding: 10px;
     transition: 0.4s;
 }
 
-.botao_zap:hover{
+.botao_zap:hover {
     background-color: white;
     color: #115e30;
 }
 
-.containerPai_logo img{
+.containerPai_logo img {
     border-radius: 10px;
     border: 10px solid rgb(128, 255, 190);
     box-shadow: 10px 10px 0px rgb(255, 255, 255) !important;
 }
 
-
 @media (max-width: 424px) {
 
-    .titulo_contato h1{
-        font-size: 50px;
+    .titulo_contato h1 {
+        font-size: 2.625rem;
     }
-    
-    .titulo_contato p{
-        font-size: 20px;
+
+    .titulo_contato p {
+        font-size: 1.125rem;
         text-align: center;
     }
 
+    .containerPai_convite h3 {
+        font-size: 1.75rem;
+    }
+
+    .containerPai_convite p {
+        font-size: 1.125rem;
+    }
+
+    .botao_zap {
+        font-size: 1.25rem;
+    }
 }
 
 @media (max-width: 769px) {
-
-    .convite_grupo{
+    .convite_grupo {
         text-align: center;
     }
-
 }

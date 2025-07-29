@@ -3,12 +3,12 @@
 }
 
 .texto p{
-    font-size: 25px;
+    font-size: 1.5625rem; 
     text-align: justify;
 }
 
 .texto h1{
-    font-size: 45px;
+    font-size: 2.8125rem; 
 }
 
 .imagemzap img{
@@ -27,31 +27,27 @@
 
 .texto_explicativo p{
     width: 500px;
-    font-size: 20px;
+    font-size: 1.25rem; 
     text-align: justify;
 }
 
-
 .titulo h3{
-    font-size: 35px;
-
+    font-size: 2.1875rem; 
 }
 
 .explicacao1{
     width: 800px;
-    font-size: 25px;
+    font-size: 1.5625rem; 
     text-align: center;
 }
-
 
 .imagem_explicativa img{
     width: 600px;
     box-shadow: 10px 10px 0px rgb(0, 216, 173);
 }
 
-
 .recomen_video{
-    font-size: 35px;
+    font-size: 2.1875rem; 
     font-weight: bold;
     color: white;
     text-align: justify;
@@ -65,9 +61,7 @@
     border: 10px solid white;
     box-shadow: 10px 10px 0px rgb(0, 166, 255);
     width: 500px;
-
 }
-
 
 .explicacoes{
     background: linear-gradient(180deg, rgba(86, 84, 228, 1) 0%, rgb(99, 135, 253) 50%, rgb(129, 127, 245) 100%);
@@ -75,28 +69,26 @@
 }
 
 .explicacoes p, li{
-    font-size: 20px;
+    font-size: 1.25rem; 
     text-align: justify;
 }
 
 .explicacoes h4{
     text-align: center;
-    font-size: 30px;
+    font-size: 1.875rem; 
 }
 
 .explicacoes img{
     width: 500px;
 }
 
-
 .cuidados{
     background: linear-gradient(180deg, rgba(177,182,255,1) 0%, rgba(128,189,255,1) 50%, rgba(75,196,255,1) 100%);    
-
 }
 
 .titulo2 h3{
     color: #16032e;
-    font-size: 35px;
+    font-size: 2.1875rem; 
 }
 
 .cuidadoCard{
@@ -114,14 +106,12 @@
     transition: transform 0.9s ease;
     background-color: rgb(144, 73, 211);
     color: white;
-
 }
 
 .cuidadoCard p{
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: justify;
 }
-
 
 @media (max-width: 768px) {
 
@@ -130,27 +120,27 @@
     }
 
     .texto p{
-        font-size: 20px;
+        font-size: 1.25rem;
         text-align: justify;
     }
 
     .texto h1{
-        font-size: 40px;
+        font-size: 2.5rem; 
     }
 
     .titulo h3{
-        font-size: 35px;
+        font-size: 2.1875rem;
     }
 
     .explicacao1{
         width: 100%;
-        font-size: 20px;
+        font-size: 1.25rem;
         text-align: center;
     }
 
     .texto_explicativo p{
         width: 90%;
-        font-size: 18px;
+        font-size: 1.125rem; 
         text-align: justify;
     }
 
@@ -160,7 +150,6 @@
         margin-bottom: 50px;
     }
 
-
     .container_limite{
         min-width: 100% !important;
         max-width: 100% !important;
@@ -168,16 +157,15 @@
         max-height: 700px !important;
     }
 
-
     .textoGeral{
         color: white;
-        font-size: 22px;
+        font-size: 1.375rem; 
         width: 100%;
         text-align: justify;
     }
 
     .recomen_video{
-        font-size: 30px;
+        font-size: 1.875rem; 
         font-weight: bold;
         color: white;
     }
@@ -196,15 +184,13 @@
     .primeiro{
         margin-bottom: 10px;
     }
-
 }
-
 
 @media (max-width: 425px) {
 
     .textoGeral{
         color: white;
-        font-size: 18px;
+        font-size: 1.125rem; 
         width: 90%;
         text-align: justify;
     }
@@ -213,13 +199,11 @@
         width: 250px;
     }
 
-
     .recomen_video{
-        font-size: 20px;
+        font-size: 1.25rem; 
         font-weight: bold;
         color: white;
     }
-
 
     .recomen_video iframe{
         width: 80%;
@@ -228,23 +212,20 @@
 
     .titulo2 h3{
         color: #16032e;
-        font-size: 30px;
+        font-size: 1.875rem; 
     }
 
     .cuidadoCard p{
-        font-size: 18px;
+        font-size: 1.125rem; 
         text-align: left;
     }
-
 }
-
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: #00fd94; 
   padding: 18px; 
 }
-
 
 @media (max-width: 768px) {
 
@@ -261,5 +242,3 @@
     }
 
 }
-
-

@@ -1,11 +1,11 @@
-body{
+body {
     padding: 0;
     margin: 0;
-    max-width: 100%!important;
-    overflow-x: hidden
+    max-width: 100% !important;
+    overflow-x: hidden;
 }
 
-header{
+header {
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -13,48 +13,72 @@ header{
     background-color: #190032 !important;
 }
 
-.cor{
+header ul {
+    gap: 1.875rem !important; 
+}
+
+.cor {
     background-color: #190032 !important;
 }
 
-.botaoResponsivo{
+.botaoResponsivo {
     background-color: #190032 !important;
 }
 
-.inicio{
-    padding-top: 102px !important;
+.inicio {
+    padding-top: 5.9375rem !important; 
 }
 
-
-.item_ativo{
+.item_ativo {
     color: #d7a9ff !important;
 }
 
-
-.item_menu a{
+.item_menu a {
     color: #b9ffb6;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
-.item_menu a:hover{
+.item_menu a:hover {
     color: #008540 !important;
 }
 
-.retangulo{
+.retangulo {
     background-color: #150033;
 }
 
-
-.logo img{
-    width: 70px;
-    height: 70px;
+header img {
+    width: 4.375rem; 
+    height: 4.375rem; 
 }
 
-
-.fim_rodape{
+.fim_rodape {
     background-color: #12003d;
 }
 
+.acessibilidade-botoes {
+    display: flex;
+    gap: 1.875rem; 
+}
 
- 
+.acessibilidade-botoes button {
+    color: #b9ffb6;
+    border: none;
+    background: none;
+    transition: 0.5s color;
+}
+
+.acessibilidade-botoes button:hover {
+    color: #ecd6ff;
+}
+
+.acessibilidade-botoes p {
+    color: #ecd6ff;
+    font-size: 1.25rem; 
+    align-items: center;
+    justify-content: center;
+}
+
+html.monocromatico {
+    filter: grayscale(100%);
+}
