@@ -83,7 +83,7 @@
 }
 
 .cuidados{
-    background: linear-gradient(180deg, rgba(177,182,255,1) 0%, rgba(128,189,255,1) 50%, rgba(75,196,255,1) 100%);    
+    background: linear-gradient(180deg, rgba(177,182,255,1) 0%, rgba(128,189,255,1) 50%, rgb(106, 207, 255) 100%);    
 }
 
 .titulo2 h3{
@@ -242,3 +242,4 @@
     }
 
 }
+
